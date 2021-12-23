@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T01:41:20.442Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="nDgeZpsDXnYl7BXFem9s" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-23T01:46:56.258Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="YFd5Y8fQcD3-5cMFzzgp" version="16.0.3" type="github">
   <diagram id="oNoCh472WHkI5cA-Zi-L" name="Page-1">
     <mxGraphModel dx="1421" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -275,6 +275,12 @@
         </mxCell>
         <mxCell id="JhKGkFPH5AHFXaF74hSK-98" value="本地文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1265" y="2000" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QsVUKS-AsaoX6g8tG6HY-1" value="该模式起始于前端的原始阶段，当时前端源码即最终运行代码，没有开发环境编译一说&lt;br&gt;调试难度级别——噩梦" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1314.5" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QsVUKS-AsaoX6g8tG6HY-2" value="nodejs 的诞生是该时期的标准事件&lt;br&gt;前端有了本地开发环境，源码与发布码也已经有了优化与压缩过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1314.5" y="320" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
