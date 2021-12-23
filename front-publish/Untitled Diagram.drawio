@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T02:05:32.610Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="cj2wd7fTFLubuhCDkkZH" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-23T01:41:20.442Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="nDgeZpsDXnYl7BXFem9s" version="16.0.3" type="github">
   <diagram id="oNoCh472WHkI5cA-Zi-L" name="Page-1">
-    <mxGraphModel dx="1421" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1421" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,7 +67,7 @@
         <mxCell id="JhKGkFPH5AHFXaF74hSK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="JhKGkFPH5AHFXaF74hSK-7" target="JhKGkFPH5AHFXaF74hSK-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JhKGkFPH5AHFXaF74hSK-7" value="&lt;span&gt;nginx 静态文件服务&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="JhKGkFPH5AHFXaF74hSK-7" value="&lt;span&gt;Nginx 静态文件服务&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="570" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JhKGkFPH5AHFXaF74hSK-10" value="api请求转发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -94,7 +94,7 @@
         <mxCell id="JhKGkFPH5AHFXaF74hSK-19" value="&lt;font style=&quot;font-size: 16px&quot;&gt;发布&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="525" y="980" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="JhKGkFPH5AHFXaF74hSK-20" value="&lt;h1&gt;第三代web部署简化版&lt;/h1&gt;&lt;div&gt;各干各活，各住各屋&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="JhKGkFPH5AHFXaF74hSK-20" value="&lt;h1&gt;第三代web部署简化版&lt;/h1&gt;&lt;div&gt;天下武功，唯快不破&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="970" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="JhKGkFPH5AHFXaF74hSK-22" value="可通过 http 服务响应的&lt;br&gt;文件存储服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -209,8 +209,8 @@
         </mxCell>
         <mxCell id="JhKGkFPH5AHFXaF74hSK-76" value="&lt;h2&gt;&lt;font style=&quot;font-size: 23px&quot;&gt;进化&lt;/font&gt;&lt;/h2&gt;" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="650" y="1630" as="sourcePoint" />
-            <mxPoint x="650.0000000000001" y="1910" as="targetPoint" />
+            <mxPoint x="644.5" y="1430" as="sourcePoint" />
+            <mxPoint x="644.5000000000001" y="1710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JhKGkFPH5AHFXaF74hSK-78" value="&lt;b&gt;WHY&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;平台稳定性考虑，上个月内网的 npm 平台刚断了一个多小时&lt;br&gt;万一文件服务平台也偶尔抽一回就不能愉快了&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" parent="1" vertex="1">
