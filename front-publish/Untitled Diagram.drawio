@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T02:35:31.893Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="oxpL-14hTak3iRrSoZHk" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T01:55:08.176Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="LdP05z031VrJIfZX4C4d" version="16.1.0" type="github">
   <diagram id="oNoCh472WHkI5cA-Zi-L" name="Page-1">
     <mxGraphModel dx="1421" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -213,7 +213,7 @@
             <mxPoint x="644.5000000000001" y="1710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JhKGkFPH5AHFXaF74hSK-78" value="&lt;b&gt;WHY&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;平台稳定性考虑，上个月内网的 npm 平台刚断了一个多小时&lt;br&gt;万一文件服务平台也偶尔抽一回就不能愉快了&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" parent="1" vertex="1">
+        <mxCell id="JhKGkFPH5AHFXaF74hSK-78" value="&lt;b&gt;WHY&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;平台稳定性考虑，上个月内网的 npm 平台刚断了一个多小时&lt;br&gt;万一文件服务平台也偶尔抽一回就嗨了&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" parent="1" vertex="1">
           <mxGeometry x="770" y="1780" width="500" height="140" as="geometry" />
         </mxCell>
         <mxCell id="JhKGkFPH5AHFXaF74hSK-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JhKGkFPH5AHFXaF74hSK-80" target="JhKGkFPH5AHFXaF74hSK-83" edge="1">
@@ -271,7 +271,7 @@
         <mxCell id="JhKGkFPH5AHFXaF74hSK-92" value="代理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="925" y="1945" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JhKGkFPH5AHFXaF74hSK-94" value="&lt;font style=&quot;font-size: 14px&quot;&gt;lua 接口&lt;br&gt;从静态文件平台拉取所有文件到 nginx 配置的站点路径下&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+        <mxCell id="JhKGkFPH5AHFXaF74hSK-94" value="&lt;font style=&quot;font-size: 14px&quot;&gt;lua 构造接口&lt;br&gt;将静态文件直接写入 nginx 配置的站点路径下&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="1030" y="2100" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="JhKGkFPH5AHFXaF74hSK-96" value="请求更新接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="1" vertex="1">
@@ -280,10 +280,10 @@
         <mxCell id="JhKGkFPH5AHFXaF74hSK-98" value="本地文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1270" y="1990" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="QsVUKS-AsaoX6g8tG6HY-1" value="该模式起始于前端的原始阶段，当时前端源码即最终运行代码，没有开发环境编译一说&lt;br&gt;调试难度级别——噩梦" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QsVUKS-AsaoX6g8tG6HY-1" value="该模式起始于前端的原始阶段，当时前端源码即最终运行代码，没有开发环境编译一说&lt;br&gt;调试难度级别——噩梦" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1314.5" y="90" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QsVUKS-AsaoX6g8tG6HY-2" value="nodejs 的诞生是该时期的标准事件&lt;br&gt;前端有了本地开发环境，源码与发布码也已经有了优化与压缩过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QsVUKS-AsaoX6g8tG6HY-2" value="nodejs 的诞生是该时期的标准事件&lt;br&gt;前端有了本地开发环境，源码与发布码也已经有了优化与压缩过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1314.5" y="320" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
