@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-10T06:33:01.301Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="A8ccP_gE7_gu0zIk7KTY" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-10T06:33:47.101Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="FNqg60EAiVOTOfbTrNqB" version="16.1.0" type="github">
   <diagram id="3228e29e-7158-1315-38df-8450db1d8a1d" name="Page-1">
     <mxGraphModel dx="1672" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -12,7 +12,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MM5QcYv-WwZt81QImvIx-21541" value="openapi(swagger)" style="swimlane;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;rounded=0;sketch=1;" vertex="1" parent="1">
+        <mxCell id="MM5QcYv-WwZt81QImvIx-21541" value="openapi(swagger)" style="swimlane;strokeColor=#82b366;fillColor=#d5e8d4;rounded=0;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="60" width="200" height="770" as="geometry" />
         </mxCell>
         <mxCell id="MM5QcYv-WwZt81QImvIx-21544" value="列表接口&#xa;入参：搜索参数&#xa;输出：列表数据、分页&#xa;以 list 结尾&#xa;例如 /api/order/list&#xa;需要在额外信息中给出&#xa;主键名称&#xa;可以有分页或没有分页，&#xa;通过返回的数据结构识别&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;sketch=1;fontColor=#1D3557;" vertex="1" parent="MM5QcYv-WwZt81QImvIx-21541">
@@ -101,7 +101,7 @@
             <mxPoint x="890" y="513.8200000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MM5QcYv-WwZt81QImvIx-21580" value="通用页面组成部分" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;flipH=1;flipV=0;" vertex="1" parent="1">
+        <mxCell id="MM5QcYv-WwZt81QImvIx-21580" value="通用页面组成部分" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;strokeColor=#36393d;fillColor=#cdeb8b;flipH=1;flipV=0;" vertex="1" parent="1">
           <mxGeometry x="900" y="100" width="192" height="150" as="geometry">
             <mxRectangle x="980" y="100" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
