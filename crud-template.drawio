@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-10T02:19:51.512Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="pQuvh8T5Vr_JM4ukRvvi" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-10T02:25:41.455Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="xUXcO6pWF_rel2iGynNf" version="16.1.0" type="github">
   <diagram id="3228e29e-7158-1315-38df-8450db1d8a1d" name="Page-1">
     <mxGraphModel dx="1672" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="MM5QcYv-WwZt81QImvIx-21553" value="解析元数据 json" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
           <mxGeometry x="450" y="255" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MM5QcYv-WwZt81QImvIx-21555" value="渲染页面" style="ellipse;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;sketch=1;" vertex="1" parent="1">
+        <mxCell id="MM5QcYv-WwZt81QImvIx-21555" value="通用（仅一套）页面&lt;br&gt;运行时渲染" style="ellipse;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="255" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
